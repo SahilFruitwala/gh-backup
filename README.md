@@ -4,6 +4,8 @@ This script backs up all of a user's GitHub repositories.
 
 ## Installation
 
+This project uses `uv` as a package manager.
+
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/your-username/gh-backup.git
@@ -12,7 +14,11 @@ This script backs up all of a user's GitHub repositories.
 
 2.  **Install the dependencies:**
     ```bash
-    pip install -r requirements.txt
+    # Install uv if you don't have it yet
+    pip install uv
+
+    # Sync the virtual environment with the lock file
+    uv sync
     ```
 
 ## Usage
