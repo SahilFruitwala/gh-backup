@@ -12,3 +12,8 @@ wheels/
 .env
 
 gh-backup/*
+
+.DS_Store
+
+.ruff_cache
+.ropeproject
